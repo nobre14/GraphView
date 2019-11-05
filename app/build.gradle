@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.nobre.graficos"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -27,6 +27,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    //biblioteca para graficos
-    implementation 'com.jjoe64:graphview:4.2.2'
+    //biblioteca MPAndroidChartView
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
